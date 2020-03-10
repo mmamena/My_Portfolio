@@ -1,0 +1,27 @@
+body{
+    font-family: Impact, sans-serif;
+    color: white;
+    background-color: #4c4946;
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+}
+
+form > fieldset{
+    color: #4c4946;
+    background-color: white;
+    font-weight: lighter;
+    width: 50%;
+}
+
+input{
+    font-family: Impact, sans-serif;
+    color: #4c4946;
+    margin-top: 3%;
+    margin-right: 1%;
+}
+
+fieldset{
+    margin: auto;
+    margin-top: 10%;
+}

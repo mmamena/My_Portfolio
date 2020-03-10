@@ -1,0 +1,227 @@
+body{
+	/* การใส่ background-image https://www.w3schools.com/html/html_images_background.asp */
+	background-image: url('3.jpg'); 
+	background-size: 100% 100%;
+	font-family: "Impact";
+    color: #4c4946;
+}
+img{
+	width: 100%;
+}
+a{
+	color: #eebc51;
+	font-size: 200%;
+}
+
+/*  */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+}
+
+.grid-container > div{
+    font-size: 100%;
+    text-align: center;
+}
+#header{
+	grid-column: 1 / span 4;
+	font-size: 300%;
+	color: #4c4946;
+}
+
+/*  */
+#menu1{
+	grid-column: 1 / span 2;
+	padding: 1%;
+	background-color:  rgb(230, 230, 230);
+}
+#menu1 > img{
+	width: 100%;
+}
+#menu2{
+	grid-column: 3 / span 2;
+	font-size: 200%;
+	text-align: auto;
+	margin: auto;
+}
+
+/*  */
+#main{
+	grid-column: 1 / span 4;
+	padding: 1%;
+	background-color: #4c4946;
+	color: white;
+	font-size: 180%;
+}
+
+/*  */
+#main1{
+	grid-column: 1 / span 2;
+	margin: auto;
+}
+#main2{
+	font-size: 150%;
+	grid-column: 3 / span 2;
+	text-align: left;
+	margin: auto;
+}
+
+/*  */
+#left1{
+	grid-column: 1 / span 1;
+	padding: 5%;
+	background-color: rgb(230, 230, 230);
+}
+#left2{
+	grid-column: 2 / span 1;
+	padding: 5%;
+	background-color: rgb(230, 230, 230);
+}
+#right1{
+	grid-column: 3 / span 1;
+	padding: 5%;
+	background-color: rgb(230, 230, 230);
+}
+#right2{
+	grid-column: 4 / span 1;
+	padding: 5%;
+	background-color: rgb(230, 230, 230);
+}
+
+/*  */
+#footer{
+	grid-column: 1 / span 4;
+	font-size: 120%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+	#header{
+		grid-column: 1 / span 2;
+	}
+	
+	/*  */
+	#menu1{
+		grid-column: 1 / span 1;
+	}
+	#menu1 > img{
+		width: 100%;
+	}
+	#menu2{
+		grid-column: 2 / span 1;
+	}
+	
+	/*  */
+	#main{
+		grid-column: 1 / span 2;
+	}
+	
+	/*  */
+	#main1{
+		grid-column: 1 / span 1;
+	}
+	#main2{
+		grid-column: 2 / span 1;
+	}
+	
+	/*  */
+	#left1{
+		grid-column: 1 / span 1;
+	}
+	#left2{
+		grid-column: 2 / span 1;
+	}
+	#right1{
+		grid-column: 1 / span 1;
+	}
+	#right2{
+		grid-column: 2 / span 1;
+	}
+	
+	/*  */
+	#footer{
+		grid-column: 1 / span 2;
+	}
+	h2{
+		font-size: 100%;
+
+	}
+	h5{
+		font-size: 100%;
+	
+	}
+	ol{
+		font-size: 100%;
+
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        grid-template-columns: auto;
+    }
+    #header{
+		grid-column: 1 / span 1;
+	}
+	
+	/*  */
+	#menu1{
+		grid-column: 1 / span 1;
+	}
+	#menu1 > img{
+		width: 100%;
+	}
+	#menu2{
+		grid-column: 1 / span 1;
+	}
+	
+	/*  */
+	#main{
+		grid-column: 1 / span 1;
+	}
+	
+	/*  */
+	#main1{
+		grid-column: 1 / span 1;
+	}
+	#main2{
+		grid-column: 1 / span 1;
+	}
+	
+	/*  */
+	#left1{
+		grid-column: 1 / span 1;
+	}
+	#left2{
+		grid-column: 1 / span 1;
+	}
+	#right1{
+		grid-column: 1 / span 1;
+	}
+	#right2{
+		grid-column: 1 / span 1;
+	}
+	
+	/*  */
+	#footer{
+		grid-column: 1 / span 1;
+	}
+	
+	h2{
+		font-size: 100%;
+
+	}
+	h5{
+		font-size: 100%;
+
+	}
+	ol{
+		font-size: 100%;
+	}
+}
